@@ -13,8 +13,3 @@ clothes if hes into it
 usually not jewlery
 a scent (one you may like)
 video game (play with him)
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-ForMyLove/index.html at main · ktorres0109/ForMyLove
