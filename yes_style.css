@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: White;
+}
+
+.header_text {
+    font-family:  'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5c3902;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    position: fixed;           /* Keeps the text in one spot on the screen */
+    bottom: 200px;              /* 10 pixels from the bottom edge */
+    left: 50%;                 /* Moves the text to the center horizontally */
+    transform: translateX(-50%); /* Adjusts for the text width so it's perfectly centered */
+    font-family: 'Dancing Script', cursive; /* Or any font you like */
+    font-size: 30px;           /* Change the size as needed */
+    color: #5c3902;
+    text-align: center;
+  }

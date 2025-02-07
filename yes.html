@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./yes_style.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">YAYYYYYYYYYYYYYYYYYYYYYYYYYY!!!</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDE1dWlnYm03djkzcm1rcGc4NWVxeTNseGJ5MXk3OWxjMWN2eWxkciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ki0mmQmQPVn0IyWbh8/giphy.gif" alt="Cute animated illustration">
+            </div>
+        </div>
+        <div class="footer_text">
+            <p>This is us baby </p>
+          </div>
+          <head>
+            <meta charset="UTF-8">
+            <title>Cute Hearts</title>
+            <style>
+              body {
+                margin: 0;
+                overflow: hidden; /* Keeps scrollbars away */
+                background-color: #fff;
+                position: relative;
+              }
+              .heart {
+                position: absolute;
+                color: pink;
+                /* A soft floating animation for a cute touch */
+                animation: float 5s infinite ease-in-out;
+              }
+              @keyframes float {
+                0% { transform: translateY(0); }
+                50% { transform: translateY(-20px); }
+                100% { transform: translateY(0); }
+              }
+            </style>
+          </head>
+          <body>
+            <script>
+              // Function to create one heart
+              function createHeart() {
+                const heart = document.createElement('div');
+                heart.className = 'heart';
+                // Using the heart HTML entity
+                heart.innerHTML = '&#10084;';
+                
+                // Random horizontal and vertical positions
+                heart.style.left = Math.random() * window.innerWidth + 'px';
+                heart.style.top = Math.random() * window.innerHeight + 'px';
+                
+                // Random size between 20px and 50px
+                heart.style.fontSize = (20 + Math.random() * 30) + 'px';
+                
+                // Optional: add a random rotation for extra cuteness
+                heart.style.transform = 'rotate(' + (Math.random() * 360) + 'deg)';
+                
+                document.body.appendChild(heart);
+              }
+              
+              // Create 50 hearts
+              for (let i = 0; i < 50; i++) {
+                createHeart();
+              }
+            </script>
+    </body> 
+</html>
